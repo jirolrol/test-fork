@@ -1,3 +1,4 @@
+
 function Stack() {
     var items = [];
 
@@ -13,6 +14,12 @@ function Stack() {
     this.isEmpty = function() {
         return items.length == 0;
     }
+     this.size = function () {
+    return items.length;
+  }
+  this.print = function () {
+    return items;
+  }
 }
 
-var stack = new Stack();
+
